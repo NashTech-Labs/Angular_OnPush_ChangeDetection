@@ -1,0 +1,15 @@
+
+.header{
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 50px;
+  font-size: clamp(2vw , 20px , 2rem);
+  font-weight: bold;
+  box-shadow: 10px 3px 3px rgba($color: #000000, $alpha: .5);
+}
